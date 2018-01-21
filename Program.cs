@@ -7,13 +7,13 @@ namespace InputOutputTask
 {
     internal class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-            string path = "/home/flydge/snap/chromium/107/Downloads/js";
+            
+            string path = @"E:\UbuntuFiles";
             FileViewer fileViewer = new FileViewer();
             fileViewer.Path = path;
             fileViewer.GetMenu();
-           
         }
     }
 }
